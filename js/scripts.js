@@ -1,28 +1,21 @@
 $(document).ready(function() {
-  $("button#javascripts").click(function() {
-    $("body").removeClass();
-    $("body").addClass("green-background");
+  $("#javascripts").click(function() {
+    $("#hidden1").toggle();
   });
-
-  $("button#operators").click(function() {
-    $("body").removeClass();
-    $("body").addClass("yellow-background");
+  $("#2").click(function() {
+    $("#hidden2").toggle();
   });
-
-  $("button#vaiables").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("#3").click(function() {
+    $("#hidden3").toggle();
   });
-  $("button#varname").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("#4").click(function() {
+    $("#hidden4").toggle();
   });
-  $("button#functions").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("#5").click(function() {
+    $("#hidden5").toggle();
   });
-  $("button#methods").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
+  $("#6").click(function() {
+    $("#hidden6").toggle();
   });
 });
+s
